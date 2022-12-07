@@ -189,3 +189,5 @@ if [[ -n "$ZSH_THEME" ]]; then
     echo "[oh-my-zsh] theme '$ZSH_THEME' not found"
   fi
 fi
+
+alias "start_mongodb"="brew services start mongodb/brew/mongodb-community@5.0"
