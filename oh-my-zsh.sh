@@ -418,3 +418,6 @@ alias cassandra_connect='/usr/local/bin/cqlsh'
 
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/Users/apple/Desktop/flutter_install/flutter/bin:$PATH"
+
+# set completion colors to be the same as `ls`, after theme has been loaded
+[[ -z "$LS_COLORS" ]] || zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
